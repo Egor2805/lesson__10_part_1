@@ -1,0 +1,94 @@
+
+@font-face{
+	font-family: "Lato";
+   src: url("../fonts/latoregular.woff2") format("woff2"),
+	url("../fonts/latoregular.woff") format("woff");
+	flex-wrap: wrap;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/latobold.woff2") format("woff2"),
+	url("../fonts/latobold.woff") format("woff");
+	flex-wrap: wrap;
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"),
+	url("../fonts/latoblack.woff") format("woff");
+	flex-wrap: wrap;
+	font-style: normal;
+	font-weight: 900;
+}
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+	font-family: "Lato";
+	color: #424551;
+}
+
+/*--- Article ---*/
+.article__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	color: #1e212c;
+	margin-bottom: 95px;
+}
+.article__img {
+	max-width: 100%;
+	text-align: center;
+	margin-bottom: 52px;
+}
+.article__main-text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1e212c;
+	margin-bottom: 27px;
+}
+.article__text p{
+	font-size: 16px;
+	line-height: 25.6px;
+}
+.article__text p:first-child{
+	margin-bottom: 35px;
+}
+.article__text p:nth-child(2){
+	margin-bottom: 52px;
+}
+.article__text blockquote{
+	background: url("../img/icon/braces.svg") 0 0 no-repeat;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1e212c;
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+.article__text p:nth-child(4){
+	margin-bottom: 24px;
+}
+.article__text ul{
+	margin-bottom: 24px;
+}
+.article__text ul li:not(:last-child){
+	margin-bottom: 4px;
+}
+.article__text ul li{
+	padding-left: 32px;
+}
+.article__text ul li::before{
+	content: "";
+	background: url("../img/icon/check.svg") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 10px;
+
+}
